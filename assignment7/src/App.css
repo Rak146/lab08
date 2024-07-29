@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('waterfall.jpg'); /* Add the path to your background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container {
+  background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  h1 {
+    color: black;
+    font-size: 35px;
+  }
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: calc(100% - 22px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.editing:hover {
+  background-color: blue;
+}
+
+li span {
+  cursor: pointer;
+}
+
+li button {
+  background-color: #dc3545;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
